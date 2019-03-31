@@ -20,7 +20,6 @@ def select_youngest_bear_and_returns_name_and_age
 end
 
 def selects_most_prominent_color_and_returns_with_count
-  binding.pry
   "SELECT color COUNT(color) FROM bears GROUP BY color"
 end
 
@@ -31,3 +30,4 @@ end
 def selects_bear_that_killed_Tim
   "Write your SQL query here"
 end
+
